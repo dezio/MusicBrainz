@@ -494,7 +494,7 @@ class MusicBrainz
         $mbid,
         $limit = 25,
         $offset = null,
-        array $includes,
+        array $includes = array(),
         $releaseType = array()
     ) {
         if (!in_array($entity, array('artist', 'release'))) {
